@@ -1,0 +1,27 @@
+- name: "Mahesh"
+  dob: "2000-01-30"
+  mobile: 09898688739
+  addresses:
+  - flatno: 23
+    street: "Ram nagar"
+    city: "Bengaluru"
+    type: "perm"
+
+  - flatno: 25
+    street: "Syam nagar"
+    city: "Bengaluru"
+    type: "Current"
+
+- name: "Mahesh"
+  dob: "2000-01-30"
+  mobile: 09898688739
+  addresses:
+  - flatno: 23
+    street: "Ram nagar"
+    city: "Bengaluru"
+    type: "perm"
+
+  - flatno: 25
+    street: "Syam nagar"
+    city: "Bengaluru"
+    type: "Current"

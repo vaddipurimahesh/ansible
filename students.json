@@ -1,0 +1,39 @@
+{
+    "students": [
+        {
+            "firstName": "Ram",
+            "dob": "2002-01-02",
+            "address": [
+                {
+                    "type": "perm",
+                    "flatno": 51,
+                    "street": "Ramalayam strret"
+                },
+                {
+                    "type": "current",
+                    "flatno": 52,
+                    "street": "Ramalayam strret"
+                }
+            ],
+            "skills": [".net", "cloud","devops"]
+        },
+         {
+            "firstName": "Laxman",
+            "dob": "2003-01-03",
+            "address": [
+                {
+                    "type": "perm",
+                    "flatno": 51,
+                    "street": "Ramalayam strret"
+                },
+                {
+                    "type": "current",
+                    "flatno": 52,
+                    "street": "Ramalayam strret"
+                }
+            ],
+            "skills": [".net", "cloud","devops"]
+        }
+    ]
+}
+
