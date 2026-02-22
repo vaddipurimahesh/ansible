@@ -1,0 +1,12 @@
+- name: Play variables
+  hosts: local
+  connection: local
+  vars:
+    COURCE: "DevOps"
+    LEARNER: "Mahesh"
+  tasks:
+  - name: variables
+    vars: 
+      COURCE: "Ansible"
+    ansible.builtin.debug:
+      msg: "Cource is: {{ COURCE }}, Learner is: {{ LEARNER }}"
