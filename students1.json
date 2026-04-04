@@ -1,0 +1,37 @@
+{
+    "students": [
+        {
+            "name": "Honey",
+            "age": 22,
+            "addresses": [
+                {
+                    "type": "Perm",
+                    "flat no": 34,
+                    "street": "Ramalayam Street"
+                },
+                {
+                    "type": "Current",
+                    "flat no": 44,
+                    "street": "See street"                
+                }
+            ]
+        },
+        {
+            "name": "Bunny",
+            "age": 21,
+            "addresses": [
+                {
+                    "type": "Perm",
+                    "flat no": 34,
+                    "street": "Ramalayam Street"
+                },
+                {
+                    "type": "Current",
+                    "flat no": 44,
+                    "street": "See street"                
+                }
+            ]
+        }
+        
+    ]
+}

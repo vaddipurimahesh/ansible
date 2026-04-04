@@ -1,0 +1,23 @@
+- name: Honey
+  class: 1
+  addresses:
+  - flatNo: 111
+    street: 4th cross
+    city: Ooty
+    type: Perm
+  - flatNo: 222
+    street: 5th cross
+    city: Ooty
+    type: Current
+
+- name: Bunny
+  class: 2
+  addresses:
+  - flatNo: 333
+    street: 6th cross
+    city: Ooty
+    type: Perm
+  - flatNo: 444
+    street: 7th cross
+    city: Ooty
+    type: Current
