@@ -2,13 +2,13 @@
   hosts: local
   connection: local
   vars_prompt:
-  - name: Username
-    Prompt: Enter your Username
-    private: false
+    - name: Username
+      Prompt: Enter your Username
+      private: false
 
-  - name: Password
-    Prompt: Enter your Password
-    private: true
+    - name: Password
+      Prompt: Enter your Password
+      private: true
 
   tasks:
   - name: Print Username and Password
