@@ -1,4 +1,4 @@
-- name: inventory level variables
+- name: Play variables
   hosts: local
   connection: local
   tasks:
