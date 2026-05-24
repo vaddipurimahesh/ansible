@@ -1,0 +1,10 @@
+- name: Play level variables
+  hosts: local
+  connection: local
+  tasks:
+    vars:
+      COURSE: Ansible
+    debug:
+      msg: "Cource is {{ COURSE }}"
+
+    
