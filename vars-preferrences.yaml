@@ -7,8 +7,8 @@
   - cource.yaml
   tasks:
   - name: print variables
-    vars:
-      NAME: "Ansible from TASK"
+   # vars:
+    #  NAME: "Ansible from TASK"
     ansible.builtin.debug:
       msg: "Hi {{ NAME }}"
   vars_prompt:
