@@ -10,7 +10,7 @@
     vars:
       NAME: "Ansible from TASK"
     ansible.builtin.debug:
-      msg: "Hi from {{ NAME }}"
+      msg: "Hi {{ NAME }}"
   vars_prompt:
   - name: NAME
     prompt: Please enter name
