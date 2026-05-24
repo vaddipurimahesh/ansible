@@ -2,8 +2,6 @@
   hosts: local
   connection: local
   tasks:
-    vars:
-      COURSE: Ansible
     debug:
       msg: "Course is {{ COURSE }}"
 
