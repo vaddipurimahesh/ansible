@@ -5,6 +5,6 @@
     vars:
       COURSE: Ansible
     debug:
-      msg: "Cource is {{ COURSE }}"
+      msg: "Course is {{ COURSE }}"
 
     
