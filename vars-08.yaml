@@ -3,6 +3,6 @@
   connection: local
   tasks:
     ansible.builtin.debug:
-      msg: "Course is {{ COURSE }}"
+      msg: "Course is: {{ COURSE }}"
 
     
