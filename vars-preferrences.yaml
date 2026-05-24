@@ -4,7 +4,7 @@
   vars:
     NAME: "Ansible from PLAY"
   vars_files:
-  - cource.yaml
+  #- cource.yaml
   tasks:
   - name: print variables
    # vars:
