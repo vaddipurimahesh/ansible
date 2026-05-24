@@ -1,8 +1,8 @@
-- name: Play variables
+- name: play variables
   hosts: local
   connection: local
   tasks:
-  - name: variables
+  - name: print variables
     ansible.builtin.debug:
       msg: "Course is: {{ COURSE }}"
 
