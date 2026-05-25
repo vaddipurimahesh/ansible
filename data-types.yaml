@@ -1,0 +1,23 @@
+- name: ansible datatypes
+  hosts: local
+  connection: local
+  vars:
+    COURSE: "DevOps" # String
+    DURATION: 140 # Int/Number
+    IS_LIVE: true # Bool
+    DETAILS: # map/dict
+      Trainer: "Siva"
+      Language: "Telugu"
+    TOPICS: #List
+      - ansible
+      - Linux
+      - kubernetes
+    tasks:
+    - name: print variables
+    ansible.builtin.debug:
+      msg: |
+        Course: {{ COURSE}}
+        Duration: {{ DURATION }}
+        IS Live?: {{ IS_LIVE }}
+        Details: {{ DETAILS}}
+        Topics: {{ TOPICS }}
