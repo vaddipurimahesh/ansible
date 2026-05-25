@@ -13,8 +13,8 @@
     - Linux
     - kubernetes
   tasks:
-    - name: print variables
-      ansible.builtin.debug:
+  - name: print variables
+    ansible.builtin.debug:
       msg: |
         Program: {{ PROGRAM }}
         Duration: {{ DURATION }}
