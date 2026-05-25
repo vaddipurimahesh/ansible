@@ -9,15 +9,15 @@
       Trainer: "Siva"
       Language: "Telugu"
     TOPICS: #List
-      - ansible
-      - Linux
-      - kubernetes
-    tasks:
-    - name: print variables
-      ansible.builtin.debug:
-      msg: |
-        Program: {{ PROGRAM }}
-        Duration: {{ DURATION }}
-        IS Live?: {{ IS_LIVE }}
-        Details: {{ DETAILS}}
-        Topics: {{ TOPICS }}
+    - ansible
+    - Linux
+    - kubernetes
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+    msg: |
+      Program: {{ PROGRAM }}
+      Duration: {{ DURATION }}
+      IS Live?: {{ IS_LIVE }}
+      Details: {{ DETAILS }}
+      Topics: {{ TOPICS }}
