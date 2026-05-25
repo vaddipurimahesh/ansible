@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    COURSE: "DevOps" # String
+    PROGRAM: "DevOps" # String
     DURATION: 140 # Int/Number
     IS_LIVE: true # Bool
     DETAILS: # map/dict
@@ -16,7 +16,7 @@
     - name: print variables
     ansible.builtin.debug:
       msg: |
-        Course: {{ COURSE}}
+        Program: {{ PROGRAM }}
         Duration: {{ DURATION }}
         IS Live?: {{ IS_LIVE }}
         Details: {{ DETAILS}}
