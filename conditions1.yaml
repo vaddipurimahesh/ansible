@@ -1,10 +1,12 @@
 - name: ansible conditions
   hosts: local
   connection: local
+  become: yes
   vars:
     nginx: true
   tasks:
   - name: check if package is nginx"
     ansible.builtin.yum:
-      msg: "Package is nginx"
+      name: nginx
+      state: present
     when: nginx
