@@ -13,11 +13,11 @@
     - Linux
     - kubernetes
   tasks:
-  - name: print variables
-    ansible.builtin.debug:
-    msg: |
-      Program: {{ PROGRAM }}
-      Duration: {{ DURATION }}
-      IS Live?: {{ IS_LIVE }}
-      Details: {{ DETAILS }}
-      Topics: {{ TOPICS }}
+    - name: print variables
+      ansible.builtin.debug:
+      msg: |
+        Program: {{ PROGRAM }}
+        Duration: {{ DURATION }}
+        IS Live?: {{ IS_LIVE }}
+        Details: {{ DETAILS }}
+        Topics: {{ TOPICS }}
