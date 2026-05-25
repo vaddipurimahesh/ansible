@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-    NAME: "nginx"
+    nginx: true
   tasks:
   - name: check if package is nginx"
-    ansible.builtin.debug:
+    ansible.builtin.yum:
       msg: "Package is nginx"
     when: NAME == "nginx"
