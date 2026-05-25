@@ -14,7 +14,7 @@
       - kubernetes
     tasks:
     - name: print variables
-    ansible.builtin.debug:
+      ansible.builtin.debug:
       msg: |
         Program: {{ PROGRAM }}
         Duration: {{ DURATION }}
